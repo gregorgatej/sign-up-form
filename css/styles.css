@@ -27,6 +27,29 @@ body {
     background-image: url("../assets/images/green_leaf_plant.avif");
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    position: absolute;
+    top: 33.3333%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
 }
 
 .main {

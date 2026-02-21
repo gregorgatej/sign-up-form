@@ -1,6 +1,6 @@
 # Sign-up Form
 
-A simple sign-up form that features a split-layout design with a nature-themed sidebar and a clean form interface.
+A simple sign-up form that features a split-layout design with a nature-themed sidebar and a clean form interface
 
 ## Credits
 

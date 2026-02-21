@@ -129,3 +129,7 @@ input:focus {
     border-color: #4A90E2;
     box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
 }
+
+input:user-invalid {
+    border-color: #DC2626;
+}

@@ -24,7 +24,9 @@ body {
 
 .sidebar {
     flex: 0 0 40%;
-    background-color: #f0f0f0;
+    background-image: url("../assets/images/green_leaf_plant.avif");
+    background-size: cover;
+    background-position: center;
 }
 
 .main {

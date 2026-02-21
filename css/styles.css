@@ -162,3 +162,62 @@ input:user-invalid {
 .login-link a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        flex: 0 0 auto;
+        height: 200px;
+    }
+
+    .main {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .form-section {
+        padding: 20px;
+    }
+
+    .info-text {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    p {
+        overflow-wrap: break-word;
+    }
+
+    input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        height: 150px;
+    }
+
+    .logo-container {
+        padding: 15px 20px;
+    }
+
+    .form-section {
+        padding: 15px;
+    }
+}
